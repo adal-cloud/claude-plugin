@@ -1,0 +1,15 @@
+{
+  "name": "adal-cloud",
+  "description": "Adal Cloud plugins for Claude.",
+  "owner": {
+    "name": "ADAL CLOUD LLP",
+    "email": "hello@adal.cloud"
+  },
+  "plugins": [
+    {
+      "name": "adal-cloud",
+      "description": "Create public HTTPS webhook endpoints and inspect incoming requests with Adal Cloud.",
+      "source": "./plugins/adal-cloud"
+    }
+  ]
+}

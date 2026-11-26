@@ -1,0 +1,12 @@
+{
+  "name": "adal-cloud",
+  "version": "1.0.0",
+  "description": "Create public HTTPS webhook endpoints and inspect incoming requests with Adal Cloud.",
+  "author": {
+    "name": "ADAL CLOUD LLP",
+    "email": "hello@adal.cloud"
+  },
+  "homepage": "https://adal.cloud/en/docs/mcp/quickstart",
+  "repository": "https://github.com/adal-cloud/claude-plugin",
+  "keywords": ["webhooks", "http", "mcp"]
+}
