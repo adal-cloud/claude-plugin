@@ -2,6 +2,8 @@
 
 Create a public HTTPS endpoint for webhooks, then inspect incoming HTTP requests from Claude. The plugin connects to the hosted Adal Cloud MCP server and includes two skills for working with Inbound.
 
+Install it from the Adal Cloud marketplace hosted in this GitHub repository. This installation path was tested on Claude Free in the web app.
+
 ## Install in Claude
 
 1. Open **Plugins**, select **Add** and choose **Add marketplace**.
@@ -21,6 +23,8 @@ Run these commands in an interactive Claude Code session:
 ```
 
 Run `/mcp` and authorize Adal Cloud if prompted.
+
+To connect only the MCP server, add a custom connector named **Adal Cloud** with the URL `https://mcp.adal.cloud/mcp`. Select **Sign in now**, **Register automatically**, and **Streamable HTTP**.
 
 ## Skills
 
